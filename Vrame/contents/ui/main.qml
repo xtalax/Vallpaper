@@ -108,8 +108,8 @@ Component.onCompleted: {
 
 	setCfgAdapter();
 
-  myConnector.setAction("open", myActionTextPrefix + "Open image", "document-open");
-  myConnector.setAction("next", myActionTextPrefix + "Next image","user-desktop");
+  myConnector.setAction("open", "Open image", "document-open");
+  myConnector.setAction("next", "Next image","user-desktop");
 }
 
 
